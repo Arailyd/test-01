@@ -1,13 +1,42 @@
 <template>
   <div class="home">
     <h1>Homepage</h1>
-    <p class="red blue--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eius quam, consectetur eligendi impedit reiciendis natus, voluptates placeat qui aliquid, voluptatibus quidem modi debitis. Rem, eligendi exercitationem. Voluptatibus, dolorem odio?</p>
-    <p class="pink lighten-3 red--text text--darken-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo suscipit, cupiditate officiis enim hic repellendus nobis possimus ut modi sit, commodi autem sapiente explicabo ullam fugiat deserunt magnam. Exercitationem, saepe!</p>
-    <h1 class="display-4">Massive Display</h1>
-    <h4 class="display-1">Smaller Display</h4>
-    <p class="headline">This is a headline</p>
-    <p class="subheading font-weight-bold">This is subheading</p>
-    <p class="caption text-capitalize">This is a caption</p>
+    <div class="my-2">
+      <v-btn class="pink white--text">click me</v-btn>
+    </div>
+    <div class="my-2">
+      <v-btn depressed color="pink">click me</v-btn>
+    </div>
+    <div class="my-2">
+      <v-btn flat color="pink">click me</v-btn>
+    </div>
+    <div class="my-2">
+      <v-btn depressed class="pink white--text">
+        <v-icon left>mdi-email</v-icon>
+        <span>email me</span>
+      </v-btn>
+    </div>
+
+    <div class="my-2">
+      <v-btn small depressed class="pink white--text">
+        <v-icon left>mdi-email</v-icon>
+        <span>email me</span>
+      </v-btn>
+    </div>
+
+    <div class="my-2">
+      <v-btn depressed class="pink white--text">
+        <span>email me</span>
+        <v-icon large right>mdi-email</v-icon>
+        
+      </v-btn>
+    </div>
+
+    <div class="my-2">
+      <v-btn fab depressed small dark color="purple">
+        <v-icon>mdi-cloud-upload</v-icon>
+      </v-btn>
+    </div>
   </div>
 </template>
 
