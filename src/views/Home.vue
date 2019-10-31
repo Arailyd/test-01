@@ -8,7 +8,6 @@
     <p class="headline text-capitalize">This is a headline</p>
     <p class="subheading font-weight-bold">This is a subheading</p>
     <p class="caption">This is a caption</p>
-    <v-btn class="pink white--text">click me</v-btn>
   </div>
 </template>
 
